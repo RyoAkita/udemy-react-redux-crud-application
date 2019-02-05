@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 
 
+/*
 class App extends Component {
   render() {
     return (
@@ -12,6 +13,21 @@ class App extends Component {
    
     )
   }
+} 
+*/
+const App = () => {
+  return (
+    <div>
+  <Cat />
+  <Cat />
+  <Cat />
+  </div>
+  
+  )
+}
+
+const Cat = () => {
+  return <div>Meow</div>
 }
 
 export default App;
